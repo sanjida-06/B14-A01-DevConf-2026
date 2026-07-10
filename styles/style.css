@@ -27,6 +27,7 @@ nav ul li a{
     border-radius: 5px;
     padding: 5px 10px;
     border: none;
+    cursor: pointer;
 }
 .hero-section{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('../assets/banner.jpg');
@@ -105,4 +106,103 @@ nav ul li a{
 }
 .box-info{
     padding: 20px;
+}
+/* speaker info ended */
+/* price boxes started */
+.card-header{
+    text-align: center;
+    font-size: 30px;
+    padding: 80px 0 10px 0;
+}
+.card-header-texts{
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0 20px 0;
+}
+.price-box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding: 50px 0 50px 0;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+.price-box-1{
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 40px;
+    height: 400px;
+}
+.price-box-2{
+    border: 2px solid #0D1B2A;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #0D1B2A;
+    color: #FFFFFF;
+    height: 400px;
+}
+.price-box-1 ul li::marker{
+    color: #2563EB;
+}
+.price-box-1 ul li{
+    font-size: 14px;
+    color: #575757;
+    gap: 15px;
+}
+.price-box-2 ul li::marker{
+    color: #2563EB;
+}
+.price-box-2 ul li{
+    font-size: 14px;
+    color: #FFFFFF;
+    gap: 15px;
+}
+.light-color{
+    color: #575757;
+}
+.blue-color{
+    color: #2563EB;
+}
+.button-container{
+    margin-top: 50px;
+}
+.card-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+#card-1-btn{
+    border: 2px solid #2563EB;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+#card-2-btn{
+    border: 2px solid #2563EB;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #2563EB;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+#card-3-btn{
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+}
+.light-white-color{
+    color: #F8FAFC;
 }
