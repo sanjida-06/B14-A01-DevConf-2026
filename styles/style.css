@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
+    padding: 10px 5px;
+    align-items: center;
+}
+.ul-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+}
+.common-btn{
+    background-color: #2563EB;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+}
+.hero-section{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    
+}
+.hero-section h1{
+    font-size: 50px;
+    padding: 120px 0 20px 0;
+}
+.hero-section p{
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+}
+.register-btn-parent{
+    padding: 0 0 100px 0;
+}
+#register-btn{
+    font-size: 20px;
+}
