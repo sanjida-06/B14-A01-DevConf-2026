@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+/* nav bar started */
 nav{
     display: flex;
     justify-content: space-between;
@@ -29,6 +30,8 @@ nav ul li a{
     border: none;
     cursor: pointer;
 }
+/* nav bar ended */
+/* hero section started */
 .hero-section{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('../assets/banner.jpg');
     background-size: cover;
@@ -59,6 +62,7 @@ nav ul li a{
 #register-btn{
     font-size: 20px;
 }
+/* hero section ended */
 /* Speaker info started */
 .speaker-section{
     padding: 50px 0 50px 0;
@@ -395,3 +399,4 @@ footer{
     align-items: center;
     padding: 50px 0 80px 0;
 }
+/* footer ended */
